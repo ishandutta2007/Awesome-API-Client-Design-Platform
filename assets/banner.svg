@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0d17" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#050811" />
+    </linearGradient>
+
+    <!-- Glowing Orbs Gradients -->
+    <radialGradient id="glow-cyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glow-purple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glow-pink" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ec4899" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Text Title Gradient -->
+    <linearGradient id="title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="badge-grad-1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#0369a1" stop-opacity="0.1" />
+    </linearGradient>
+    <linearGradient id="badge-grad-2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#6d28d9" stop-opacity="0.1" />
+    </linearGradient>
+    <linearGradient id="badge-grad-3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#047857" stop-opacity="0.1" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.7" stroke-opacity="0.6"/>
+    </pattern>
+
+    <style>
+      .pulse-cyan {
+        animation: pulse1 6s ease-in-out infinite alternate;
+      }
+      .pulse-purple {
+        animation: pulse2 7s ease-in-out infinite alternate;
+      }
+      .pulse-pink {
+        animation: pulse3 5s ease-in-out infinite alternate;
+      }
+      .flow-line {
+        stroke-dasharray: 8 12;
+        animation: dash 25s linear infinite;
+      }
+      .flow-node {
+        animation: float 4s ease-in-out infinite alternate;
+      }
+      .tag-pill {
+        transition: all 0.3s ease;
+      }
+      @keyframes dash {
+        to {
+          stroke-dashoffset: -1000;
+        }
+      }
+      @keyframes pulse1 {
+        0% { transform: scale(0.9) translate(-20px, 0px); opacity: 0.6; }
+        100% { transform: scale(1.15) translate(20px, 30px); opacity: 1; }
+      }
+      @keyframes pulse2 {
+        0% { transform: scale(1.1) translate(10px, -20px); opacity: 0.7; }
+        100% { transform: scale(0.85) translate(-15px, 20px); opacity: 1; }
+      }
+      @keyframes pulse3 {
+        0% { transform: scale(0.95) translate(0px, 15px); opacity: 0.5; }
+        100% { transform: scale(1.2) translate(-25px, -15px); opacity: 0.9; }
+      }
+      @keyframes float {
+        0% { transform: translateY(0px); }
+        100% { transform: translateY(-8px); }
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="100%" height="100%" fill="url(#bg-grad)" />
+
+  <!-- Animated Glowing Orbs (In Background) -->
+  <circle cx="200" cy="120" r="220" fill="url(#glow-cyan)" class="pulse-cyan" />
+  <circle cx="1020" cy="180" r="260" fill="url(#glow-purple)" class="pulse-purple" />
+  <circle cx="600" cy="360" r="180" fill="url(#glow-pink)" class="pulse-pink" />
+
+  <!-- Grid Overlay -->
+  <rect width="100%" height="100%" fill="url(#grid)" />
+
+  <!-- Flow Circuit Lines (Background Dynamic Layer) -->
+  <g opacity="0.35">
+    <path d="M 0 80 Q 300 140 600 70 T 1200 90" fill="none" stroke="#38bdf8" stroke-width="1.5" class="flow-line" />
+    <path d="M 0 340 Q 400 280 800 350 T 1200 310" fill="none" stroke="#a855f7" stroke-width="1.5" class="flow-line" />
+  </g>
+
+  <!-- Subtle Floating Architecture Node Icons (Decorative Sides) -->
+  <g class="flow-node" opacity="0.6">
+    <!-- REST / OpenAPI Box (Left) -->
+    <rect x="70" y="240" width="130" height="42" rx="8" fill="#1e293b" stroke="#38bdf8" stroke-width="1" />
+    <text x="135" y="266" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#7dd3fc" text-anchor="middle">REST &amp; OpenAPI</text>
+  </g>
+  <g class="flow-node" opacity="0.6" style="animation-delay: -2s;">
+    <!-- GraphQL / gRPC Box (Right) -->
+    <rect x="1000" y="240" width="130" height="42" rx="8" fill="#1e293b" stroke="#c084fc" stroke-width="1" />
+    <text x="1065" y="266" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#e9d5ff" text-anchor="middle">GraphQL • gRPC</text>
+  </g>
+
+  <!-- FOREGROUND CONTENT: Header, Title, Subtitle, Feature Badges -->
+  <!-- Top Category Chip -->
+  <g transform="translate(600, 75)">
+    <rect x="-140" y="-16" width="280" height="32" rx="16" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <circle cx="-115" cy="0" r="5" fill="#10b981" />
+    <text x="10" y="5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" letter-spacing="1.2" fill="#94a3b8" text-anchor="middle">CURATED DEVELOPER ECOSYSTEM</text>
+  </g>
+
+  <!-- Main Title (Crisp, High Contrast, Guaranteed Foreground) -->
+  <text x="600" y="155" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro Display', Roboto, sans-serif" font-size="44" font-weight="800" letter-spacing="-0.5" fill="url(#title-grad)" text-anchor="middle">
+    Awesome API Client &amp; Design Platform
+  </text>
+
+  <!-- Subtitle / Tagline -->
+  <text x="600" y="198" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="400" fill="#cbd5e1" text-anchor="middle">
+    The Definitive Index of REST, GraphQL, gRPC &amp; OpenAPI Testing Workspaces
+  </text>
+  <text x="600" y="226" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="400" fill="#64748b" text-anchor="middle">
+    Local-First • Git-Backed Collections • Enterprise SaaS • Open-Source Tooling
+  </text>
+
+  <!-- Feature Pills / Highlights (Centered Bottom) -->
+  <g transform="translate(600, 310)">
+    <!-- Pill 1: Testing & Debugging -->
+    <g transform="translate(-320, 0)">
+      <rect x="-95" y="-18" width="190" height="36" rx="18" fill="url(#badge-grad-1)" stroke="#0284c7" stroke-width="1.2" />
+      <text x="0" y="5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#38bdf8" text-anchor="middle">🚀 API Clients &amp; Runners</text>
+    </g>
+
+    <!-- Pill 2: OpenAPI & Design -->
+    <g transform="translate(-105, 0)">
+      <rect x="-105" y="-18" width="210" height="36" rx="18" fill="url(#badge-grad-2)" stroke="#8b5cf6" stroke-width="1.2" />
+      <text x="0" y="5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#c084fc" text-anchor="middle">📐 OpenAPI &amp; Spec Design</text>
+    </g>
+
+    <!-- Pill 3: Git-Native Collections -->
+    <g transform="translate(115, 0)">
+      <rect x="-100" y="-18" width="200" height="36" rx="18" fill="url(#badge-grad-3)" stroke="#10b981" stroke-width="1.2" />
+      <text x="0" y="5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#34d399" text-anchor="middle">📁 Git-Native &amp; Offline</text>
+    </g>
+
+    <!-- Pill 4: Mocking & Governance -->
+    <g transform="translate(325, 0)">
+      <rect x="-95" y="-18" width="190" height="36" rx="18" fill="url(#badge-grad-1)" stroke="#0ea5e9" stroke-width="1.2" />
+      <text x="0" y="5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#7dd3fc" text-anchor="middle">🛡️ Mocking &amp; Linting</text>
+    </g>
+  </g>
+
+  <!-- Bottom Accent Line -->
+  <line x1="200" y1="380" x2="1000" y2="380" stroke="#334155" stroke-width="1" stroke-dasharray="6 6" opacity="0.6"/>
+</svg>

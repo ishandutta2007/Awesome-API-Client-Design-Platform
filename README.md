@@ -72,73 +72,73 @@ Discover the best open-source alternatives for API development, testing, spec de
 
 ### ⭐ Featured Open-Source Projects (Ranked by Stars)
 
-Sorted in descending order by GitHub star count:
+Sorted in descending order by GitHub Stars_Count:
 
-1. **[Hoppscotch](https://github.com/hoppscotch/hoppscotch)** [![GitHub stars](https://img.shields.io/github/stars/hoppscotch/hoppscotch?style=social&color=white)](https://github.com/hoppscotch/hoppscotch/stargazers)  
+1. **[Hoppscotch](https://github.com/hoppscotch/hoppscotch)** [![GitHub_Stars](https://img.shields.io/github/stars/hoppscotch/hoppscotch?style=social&color=white)](https://github.com/hoppscotch/hoppscotch/stargazers)  
    *Open-Source API Development Ecosystem* — Lightweight, blazing-fast web, desktop, and CLI API client supporting REST, GraphQL, WebSocket, SSE, Socket.IO, and MQTT with self-hosting options.
 
-2. **[Bruno](https://github.com/usebruno/bruno)** [![GitHub stars](https://img.shields.io/github/stars/usebruno/bruno?style=social&color=white)](https://github.com/usebruno/bruno/stargazers)  
+2. **[Bruno](https://github.com/usebruno/bruno)** [![GitHub_Stars](https://img.shields.io/github/stars/usebruno/bruno?style=social&color=white)](https://github.com/usebruno/bruno/stargazers)  
    *Offline-First, Git-Native Desktop API Client* — Fast, open-source Postman alternative that stores collections directly in plain text `.bru` format on your filesystem, allowing versioning via standard Git branches and pull requests.
 
-3. **[Insomnia Open-Source Core (Kong)](https://github.com/Kong/insomnia)** [![GitHub stars](https://img.shields.io/github/stars/Kong/insomnia?style=social&color=white)](https://github.com/Kong/insomnia/stargazers)  
+3. **[Insomnia Open-Source Core (Kong)](https://github.com/Kong/insomnia)** [![GitHub_Stars](https://img.shields.io/github/stars/Kong/insomnia?style=social&color=white)](https://github.com/Kong/insomnia/stargazers)  
    *Cross-Platform API Client & Design Studio* — Open-source desktop client for REST, GraphQL, gRPC, and WebSockets featuring local workspaces, plugin extensibility, and OpenAPI linting/generation.
 
-4. **[HTTPie CLI](https://github.com/httpie/cli)** [![GitHub stars](https://img.shields.io/github/stars/httpie/cli?style=social&color=white)](https://github.com/httpie/cli/stargazers)  
+4. **[HTTPie CLI](https://github.com/httpie/cli)** [![GitHub_Stars](https://img.shields.io/github/stars/httpie/cli?style=social&color=white)](https://github.com/httpie/cli/stargazers)  
    *Modern User-Friendly Terminal HTTP Client* — Designed for human interaction with intuitive syntax, colored JSON terminal output, persistent sessions, and custom plugin ecosystems.
 
-5. **[Swagger UI](https://github.com/swagger-api/swagger-ui)** [![GitHub stars](https://img.shields.io/github/stars/swagger-api/swagger-ui?style=social&color=white)](https://github.com/swagger-api/swagger-ui/stargazers)  
+5. **[Swagger UI](https://github.com/swagger-api/swagger-ui)** [![GitHub_Stars](https://img.shields.io/github/stars/swagger-api/swagger-ui?style=social&color=white)](https://github.com/swagger-api/swagger-ui/stargazers)  
    *Interactive OpenAPI Visualization* — Industry-standard web component collection that renders visual, interactive OpenAPI 3.x and Swagger documentation directly in the browser.
 
-6. **[OpenAPI Generator](https://github.com/OpenAPITools/openapi-generator)** [![GitHub stars](https://img.shields.io/github/stars/OpenAPITools/openapi-generator?style=social&color=white)](https://github.com/OpenAPITools/openapi-generator/stargazers)  
+6. **[OpenAPI Generator](https://github.com/OpenAPITools/openapi-generator)** [![GitHub_Stars](https://img.shields.io/github/stars/OpenAPITools/openapi-generator?style=social&color=white)](https://github.com/OpenAPITools/openapi-generator/stargazers)  
    *Multi-Language API Client & Server Stub Generator* — Generates client SDKs, server stubs, and API documentation across 50+ programming languages directly from OpenAPI specs.
 
-7. **[Redoc](https://github.com/Redocly/redoc)** [![GitHub stars](https://img.shields.io/github/stars/Redocly/redoc?style=social&color=white)](https://github.com/Redocly/redoc/stargazers)  
+7. **[Redoc](https://github.com/Redocly/redoc)** [![GitHub_Stars](https://img.shields.io/github/stars/Redocly/redoc?style=social&color=white)](https://github.com/Redocly/redoc/stargazers)  
    *Responsive OpenAPI API Documentation* — Clean, customizable three-panel API reference documentation generator supporting OpenAPI 3.0 and 3.1 definitions.
 
-8. **[Yaak](https://github.com/mountain-loop/yaak)** [![GitHub stars](https://img.shields.io/github/stars/mountain-loop/yaak?style=social&color=white)](https://github.com/mountain-loop/yaak/stargazers)  
+8. **[Yaak](https://github.com/mountain-loop/yaak)** [![GitHub_Stars](https://img.shields.io/github/stars/mountain-loop/yaak?style=social&color=white)](https://github.com/mountain-loop/yaak/stargazers)  
    *Tauri & Rust Powered Native API Client* — Ultra-fast, lightweight desktop API client for REST, GraphQL, gRPC, WebSockets, and Server-Sent Events (SSE) with no mandatory cloud account.
 
-9. **[Hurl](https://github.com/Orange-OpenSource/hurl)** [![GitHub stars](https://img.shields.io/github/stars/Orange-OpenSource/hurl?style=social&color=white)](https://github.com/Orange-OpenSource/hurl/stargazers)  
+9. **[Hurl](https://github.com/Orange-OpenSource/hurl)** [![GitHub_Stars](https://img.shields.io/github/stars/Orange-OpenSource/hurl?style=social&color=white)](https://github.com/Orange-OpenSource/hurl/stargazers)  
    *Plain-Text HTTP Request Runner & Testing Engine* — High-performance Rust CLI for defining, running, and asserting complex HTTP requests and integration test flows in plain-text files.
 
-10. **[Scalar](https://github.com/scalar/scalar)** [![GitHub stars](https://img.shields.io/github/stars/scalar/scalar?style=social&color=white)](https://github.com/scalar/scalar/stargazers)  
+10. **[Scalar](https://github.com/scalar/scalar)** [![GitHub_Stars](https://img.shields.io/github/stars/scalar/scalar?style=social&color=white)](https://github.com/scalar/scalar/stargazers)  
     *Modern API Platform & Interactive Docs* — Open-source OpenAPI client and interactive documentation generator designed for modern developer portals and interactive testing.
 
-11. **[Posting](https://github.com/darrenburns/posting)** [![GitHub stars](https://img.shields.io/github/stars/darrenburns/posting?style=social&color=white)](https://github.com/darrenburns/posting/stargazers)  
+11. **[Posting](https://github.com/darrenburns/posting)** [![GitHub_Stars](https://img.shields.io/github/stars/darrenburns/posting?style=social&color=white)](https://github.com/darrenburns/posting/stargazers)  
     *Terminal User Interface (TUI) API Client* — Keyboard-driven, Python Textual-powered API testing tool that lives completely in your terminal and stores requests in local YAML configurations.
 
-12. **[Swagger Editor](https://github.com/swagger-api/swagger-editor)** [![GitHub stars](https://img.shields.io/github/stars/swagger-api/swagger-editor?style=social&color=white)](https://github.com/swagger-api/swagger-editor/stargazers)  
+12. **[Swagger Editor](https://github.com/swagger-api/swagger-editor)** [![GitHub_Stars](https://img.shields.io/github/stars/swagger-api/swagger-editor?style=social&color=white)](https://github.com/swagger-api/swagger-editor/stargazers)  
     *Browser-Based OpenAPI Spec Editor* — Visual editor for designing, describing, and documenting APIs using the OpenAPI Specification with real-time linting and preview.
 
-13. **[Mockoon](https://github.com/mockoon/mockoon)** [![GitHub stars](https://img.shields.io/github/stars/mockoon/mockoon?style=social&color=white)](https://github.com/mockoon/mockoon/stargazers)  
+13. **[Mockoon](https://github.com/mockoon/mockoon)** [![GitHub_Stars](https://img.shields.io/github/stars/mockoon/mockoon?style=social&color=white)](https://github.com/mockoon/mockoon/stargazers)  
     *Zero-Configuration Local API Mocking* — Desktop and CLI mock server utility to create realistic mock REST and GraphQL APIs locally without cloud accounts or external infrastructure.
 
-14. **[WireMock](https://github.com/wiremock/wiremock)** [![GitHub stars](https://img.shields.io/github/stars/wiremock/wiremock?style=social&color=white)](https://github.com/wiremock/wiremock/stargazers)  
+14. **[WireMock](https://github.com/wiremock/wiremock)** [![GitHub_Stars](https://img.shields.io/github/stars/wiremock/wiremock?style=social&color=white)](https://github.com/wiremock/wiremock/stargazers)  
     *Enterprise HTTP Mocking & Service Virtualization* — Flexible tool for mocking HTTP services, simulating unstable networks, verifying API interactions, and unit/integration testing.
 
-15. **[REST Client for VS Code](https://github.com/Huachao/vscode-restclient)** [![GitHub stars](https://img.shields.io/github/stars/Huachao/vscode-restclient?style=social&color=white)](https://github.com/Huachao/vscode-restclient/stargazers)  
+15. **[REST Client for VS Code](https://github.com/Huachao/vscode-restclient)** [![GitHub_Stars](https://img.shields.io/github/stars/Huachao/vscode-restclient?style=social&color=white)](https://github.com/Huachao/vscode-restclient/stargazers)  
     *In-Editor HTTP Execution* — Execute raw HTTP requests directly within Visual Studio Code `.http` or `.rest` files and inspect responses without leaving your editor.
 
-16. **[Prism (Stoplight)](https://github.com/stoplightio/prism)** [![GitHub stars](https://img.shields.io/github/stars/stoplightio/prism?style=social&color=white)](https://github.com/stoplightio/prism/stargazers)  
+16. **[Prism (Stoplight)](https://github.com/stoplightio/prism)** [![GitHub_Stars](https://img.shields.io/github/stars/stoplightio/prism?style=social&color=white)](https://github.com/stoplightio/prism/stargazers)  
     *OpenAPI-Driven Mock & Validation Proxy* — Turn OpenAPI v2/v3 documents into responsive mock servers with automatic contract validation and dynamic synthetic payload generation.
 
-17. **[Spectral (Stoplight)](https://github.com/stoplightio/spectral)** [![GitHub stars](https://img.shields.io/github/stars/stoplightio/spectral?style=social&color=white)](https://github.com/stoplightio/spectral/stargazers)  
+17. **[Spectral (Stoplight)](https://github.com/stoplightio/spectral)** [![GitHub_Stars](https://img.shields.io/github/stars/stoplightio/spectral?style=social&color=white)](https://github.com/stoplightio/spectral/stargazers)  
     *Pluggable JSON/YAML Linter & Style Guide Engine* — Automated linter for enforcing OpenAPI, AsyncAPI, and JSON Schema conventions across engineering organizations in CI/CD pipelines.
 
-18. **[Firecamp](https://github.com/firecamp-dev/firecamp)** [![GitHub stars](https://img.shields.io/github/stars/firecamp-dev/firecamp?style=social&color=white)](https://github.com/firecamp-dev/firecamp/stargazers)  
+18. **[Firecamp](https://github.com/firecamp-dev/firecamp)** [![GitHub_Stars](https://img.shields.io/github/stars/firecamp-dev/firecamp?style=social&color=white)](https://github.com/firecamp-dev/firecamp/stargazers)  
     *Developer-First Open-Source API DevTool* — Multi-protocol API platform supporting REST, GraphQL, WebSocket, and Socket.IO with Git-centric team collaboration.
 
-19. **[Stoplight Elements](https://github.com/stoplightio/elements)** [![GitHub stars](https://img.shields.io/github/stars/stoplightio/elements?style=social&color=white)](https://github.com/stoplightio/elements/stargazers)  
+19. **[Stoplight Elements](https://github.com/stoplightio/elements)** [![GitHub_Stars](https://img.shields.io/github/stars/stoplightio/elements?style=social&color=white)](https://github.com/stoplightio/elements/stargazers)  
     *Embeddable Interactive API Docs* — Build beautiful, interactive API documentation powered by OpenAPI and Markdown using embeddable React and Web Components.
 
-20. **[Step CI](https://github.com/stepci/stepci)** [![GitHub stars](https://img.shields.io/github/stars/stepci/stepci?style=social&color=white)](https://github.com/stepci/stepci/stargazers)  
+20. **[Step CI](https://github.com/stepci/stepci)** [![GitHub_Stars](https://img.shields.io/github/stars/stepci/stepci?style=social&color=white)](https://github.com/stepci/stepci/stargazers)  
     *Automated API Testing & Quality Assurance* — Open-source framework for contract testing, load testing, and end-to-end API workflows configured through straightforward YAML files.
 
 ---
 
 ### 🛠️ Additional Open-Source API Tools & CLI Clients
 
-* **[Insomnium](https://github.com/ArchGPT/insomnium)** [![GitHub stars](https://img.shields.io/github/stars/ArchGPT/insomnium?style=social&color=white)](https://github.com/ArchGPT/insomnium/stargazers) — Privacy-focused, 100% offline fork of Insomnia engineered without cloud synchronization or mandatory logins.
+* **[Insomnium](https://github.com/ArchGPT/insomnium)** [![GitHub_Stars](https://img.shields.io/github/stars/ArchGPT/insomnium?style=social&color=white)](https://github.com/ArchGPT/insomnium/stargazers) — Privacy-focused, 100% offline fork of Insomnia engineered without cloud synchronization or mandatory logins.
 * **[Postwoman / Hoppscotch CLI](https://github.com/hoppscotch/hoppscotch)** — Command-line companion to Hoppscotch for executing and asserting collections in continuous integration pipelines.
 * **[openapi-diff](https://github.com/OpenAPITools/openapi-diff)** — Utility for comparing OpenAPI specifications and detecting breaking API changes before deployments.
 
@@ -161,7 +161,7 @@ Contributions are welcome! To propose a new API client, design tool, or platform
 
 1. 🍴 Fork the repository.
 2. ✍️ Edit `README.md` following the established table / list format.
-3. 📝 Provide the official name, URL, GitHub star badge (if open-source), pricing model, and a concise 1–2 sentence description.
+3. 📝 Provide the official name, URL, GitHub Stars_Badge (if open-source), pricing model, and a concise 1–2 sentence description.
 4. 🚀 Submit a pull request with a descriptive title.
 
 ---
